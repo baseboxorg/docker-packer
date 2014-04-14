@@ -32,8 +32,8 @@ this as you wish._
 
 ## License
 
-Released under the [WTFPL](http://wtfpl.net) - WTFPL – Do What the Fuck
-You Want to Public License
+Released under the [WTFPL](http://wtfpl.net) - Do What the Fuck You Want
+to Public License
 
 
 
