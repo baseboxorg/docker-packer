@@ -5,7 +5,7 @@ Quay.io](https://quay.io/repository/rosstimson/packer/status "Docker
 Repository on Quay.io")](https://quay.io/repository/rosstimson/packer)
 
 This repository contains a **Dockerfile** to build [Packer][packer] and [ruby-install]
-[ruby-install] on CentOS.  It then uses [ruby-install][ruby-install] to install the 
+[ruby-install] on CentOS.  It then uses [ruby-install][ruby-install] to install the
 latest version of Ruby (MRI) and the Bundler gem.
 
 I primarily use the container that this builds with [Drone][drone] continuous
@@ -32,7 +32,7 @@ this as you wish._
 
 ## License
 
-Released under the [WTFPL][http://wtfpl.net] - WTFPL – Do What the Fuck
+Released under the [WTFPL](http://wtfpl.net) - WTFPL – Do What the Fuck
 You Want to Public License
 
 
