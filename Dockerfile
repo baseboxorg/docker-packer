@@ -12,7 +12,7 @@
 # ruby-install:   https://github.com/postmodern/ruby-install
 
 # Pull base image
-FROM centos
+FROM rosstimson/centos
 MAINTAINER Ross Timson <ross@rosstimson.com>
 
 # Install development tools needed to compile programs.
