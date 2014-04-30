@@ -35,9 +35,9 @@ RUN yum install -y libxml2-devel libxslt-devel
 # Download and install ruby-install
 RUN mkdir /tmp/ruby-install                                                   ;\
     cd /tmp/ruby-install                                                      ;\
-    wget -O ruby-install.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.1.tar.gz ;\
+    wget -O ruby-install.tar.gz https://github.com/postmodern/ruby-install/archive/v0.4.2.tar.gz ;\
     tar xzf ruby-install.tar.gz                                               ;\
-    cd ruby-install-0.4.1 && make install                                     ;\
+    cd ruby-install-0.4.2 && make install                                     ;\
     rm -rf /tmp/ruby-install
 
 # Install latest Ruby, update Rubygems, and install Bundler.
