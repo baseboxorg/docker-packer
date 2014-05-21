@@ -19,6 +19,7 @@ integration to automate and test the building of custom Amazon AMIs.
 
 1. Install [Docker][docker]
 2. Build image from Dockerfile:
+
     docker build -t rosstimson/packer github.com/rosstimson/docker-packer
 
 _Where `-t rosstimson/packer` is just a tag for the container, you can name
